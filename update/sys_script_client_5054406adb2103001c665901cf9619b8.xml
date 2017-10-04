@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>onLoad()</description>
+        <field>active</field>
+        <global>true</global>
+        <messages/>
+        <name>NeedIt Set Requested for onLoad</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+   alert("Thanks for loading the NeedIt form. When you close this alert you wil be able to interact with the form.");
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-10-04 10:43:08</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5054406adb2103001c665901cf9619b8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>NeedIt Set Requested for onLoad</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_164639_needit">e33e7e3cdb2103001c665901cf96198f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NeedIt">e33e7e3cdb2103001c665901cf96198f</sys_scope>
+        <sys_update_name>sys_script_client_5054406adb2103001c665901cf9619b8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-10-04 10:49:11</sys_updated_on>
+        <table>x_164639_needit_needit</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view>User</view>
+    </sys_script_client>
+</record_update>
